@@ -288,25 +288,67 @@ color: #727272;
 
 
 /* our sponsor started */
-
-.sponsor-details{
+ .our-sponsor{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+ }
+
+ .sponsor-details{ 
+    text-align: center;
+
+ }
+
+ .section-title-sponsor{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+ }
+
+ .section-details-sponsor{ 
+    margin-bottom: 2rem;
+
+ }
+
+.our-sponsor-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+} 
+
+.sponsor-logos{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 70px;
+}
+
+.sponsor-logos img{
+    filter: grayscale(100%)
+
+}
+
+/* footer section started */
+
+ footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .footer-area{
     margin-top: 100px;
-}
-
-.section-title-sponsor{ 
-    line-height: 40px;
-    font-weight: 700;
-    font-size: 45px;
     text-align: center;
-    margin-bottom: 20px;
-}
+    background: rgba(255, 144, 14, 0.1);
+    height: 150px;
+    width: 80%;
+    border-radius: 10px;
+ }
 
-.section-details-sponsor{ 
-    text-align: center;
-    margin-bottom: 40px;
+ .footer-declaration{
+    padding-top: 75px;
+ }
 
-}
-    
+
+/* footer section ended */
