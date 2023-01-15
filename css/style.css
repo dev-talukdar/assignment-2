@@ -236,14 +236,19 @@ color: #727272;
   .ten-yr{ 
     position: absolute;
     color: #fff;
-    font-weight: 600;
-    font-size: 16px;
+    font-weight: 600; 
     background-color: #FF900E;
-    padding: 60px 60px;
+    padding: 60px 80px;
     border-style: none;
     font-weight: 700;
     font-size: 45px;  
     margin-left: 840px; 
+  }
+
+  .thin-text-btn{
+    font-weight: 200;
+    font-size: 25px;
+    padding-top: -50px;
   }
 /* feacture right section started */
 
@@ -341,13 +346,15 @@ color: #727272;
     margin-top: 100px;
     text-align: center;
     background: rgba(255, 144, 14, 0.1);
-    height: 150px;
+    height: 100px;
     width: 80%;
     border-radius: 10px;
+    margin-bottom: 100px;
  }
 
  .footer-declaration{
-    padding-top: 75px;
+    padding-top: 45px;
+   
  }
 
 
