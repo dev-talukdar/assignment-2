@@ -162,6 +162,7 @@ nav ul li a:hover{
  }
 
  .thin-text{
+    font-weight: 400;
 color: #727272;
  }
 
@@ -220,6 +221,12 @@ color: #727272;
     max-width: 100%;
     padding-left: 90px;
     
+ }
+
+ section.feature-u-will-love{
+    position: relative;
+    margin-bottom: -210px;
+    margin-right: 330px;
  }
 
  .four-section{
@@ -355,7 +362,5 @@ color: #727272;
  .footer-declaration{
     padding-top: 45px;
    
- }
-
-
-/* footer section ended */
+ } 
+/* footer section ended */ 
