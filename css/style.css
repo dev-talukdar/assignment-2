@@ -29,7 +29,7 @@ nav{
 }
 
 .logo:hover{
-    color: #ea1538;
+    color: #ea2038;
     cursor: pointer;
 }
 
@@ -45,7 +45,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color: #ea1538;
+    color: #ea2038;
 }
 
 /* nav area ended */
@@ -83,14 +83,14 @@ nav ul li a:hover{
     font-size: 16px;
     background-color: #FF900E;
     border-style: none;
-    padding: 15px 40px;
+    padding: 20px 40px;
     border-radius: 4px;
     box-shadow: rgba(0, 0, 0, 0.25);
     margin-bottom: 50px;
  }
 
  .btn-headline:hover{
-     background-color: #ea1538;
+     background-color: #ea2038;
      cursor: pointer;
  }
 
@@ -150,14 +150,14 @@ nav ul li a:hover{
     font-size: 16px;
     background-color: #FF900E;
     border-style: none;
-    padding: 15px 40px;
+    padding: 20px 40px;
     border-radius: 4px;
     box-shadow: rgba(0, 0, 0, 0.25);
     margin-bottom: 50px;
  }
 
  .btn-headline-team:hover{
-    background-color: #ea1538;
+    background-color: #ea2038;
      cursor: pointer;
  }
 
@@ -234,6 +234,7 @@ color: #727272;
 
   
   .ten-yr{ 
+    position: absolute;
     color: #fff;
     font-weight: 600;
     font-size: 16px;
@@ -241,8 +242,71 @@ color: #727272;
     padding: 60px 60px;
     border-style: none;
     font-weight: 700;
-    font-size: 45px; 
+    font-size: 45px;  
+    margin-left: 840px; 
   }
-
-
 /* feacture right section started */
+
+/* some facts section started */
+
+.some-facts{
+    width: 550px; 
+    text-align: flex start;
+    margin-top: 300px;
+    margin-left: 250px;
+}
+
+/* some facts section started */
+.boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px; 
+    align-items: center;
+}
+
+.box{
+    border: 2px solid #FF900E; 
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.number{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+
+
+/* some facts section started */
+
+
+
+
+/* our sponsor started */
+
+.sponsor-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.section-title-sponsor{ 
+    line-height: 40px;
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-details-sponsor{ 
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+    
