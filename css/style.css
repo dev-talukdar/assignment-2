@@ -400,9 +400,7 @@ Media queries
     }
  
 
-        .some-facts, .boxes, .our-sponsor, .footer-area {
-        display: none;
-    }
+      
 
     .full-team-right-section {
         display: flex; 
