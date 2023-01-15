@@ -141,8 +141,7 @@ nav ul li a:hover{
  }
 
  .section-details-team{
-    width: 750px;
-    text-align: center;
+    width: 750px; 
     margin-bottom: 40px;
     text-align: left;
  }
@@ -200,7 +199,7 @@ color: #727272;
     left: 10%;
     margin-left: -76px;  
 }
-.section-title-team{
+.section-title-teams{
     width: 550px;
     line-height: 40px;
     font-weight: 700;
@@ -384,7 +383,7 @@ Media queries
     }
 
     .hero, .section-title, .section-details, .section-title-team,.section-details-team, .btn-headline-team, .full-team-right-section,
-    .section-title-team  {
+    .section-title-teams {
         
         width: 100%; 
 
@@ -394,7 +393,8 @@ Media queries
         flex-direction: column;
     }
 
-    .section-title-team, .section-details-team, .btn-headline-team, .section-title-team{
+    .section-title-team, .section-details-team, .btn-headline-team, .section-title-team, .section-details-team,
+     .all-features{
         align-items: center;
         text-align: center;
     }
@@ -414,8 +414,19 @@ Media queries
         width: 100%;  
     }
 
-   
+   .section-title-teams {
+    font-size: 25px;
+    margin-left: 110px; 
+   }
 
-    
+   .four-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+   }
 
+  
 }
