@@ -33,6 +33,9 @@ nav{
     cursor: pointer;
 }
 
+.logos{
+    display: flex;
+}
 nav ul li{
     color: #000;
     list-style-type: none;
@@ -364,3 +367,55 @@ color: #727272;
    
  } 
 /* footer section ended */ 
+
+/*----------------
+Media queries
+--------------- */
+
+/* Mobile Device */
+@media only screen and (max-width:688px) {
+
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden; 
+    }
+
+    .hero, .section-title, .section-details, .section-title-team,.section-details-team, .btn-headline-team, .full-team-right-section,
+    .section-title-team  {
+        
+        width: 100%; 
+
+    }
+
+    nav, .logos, .full-team {
+        flex-direction: column;
+    }
+
+    .section-title-team, .section-details-team, .btn-headline-team, .section-title-team{
+        align-items: center;
+        text-align: center;
+    }
+ 
+
+        .some-facts, .boxes, .our-sponsor, .footer-area {
+        display: none;
+    }
+
+    .full-team-right-section {
+        display: flex; 
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+        margin-left: 0px; 
+        width: 100%;  
+    }
+
+   
+
+    
+
+}
